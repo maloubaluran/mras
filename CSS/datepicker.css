@@ -1,0 +1,45 @@
+.ds_box {
+			background-color: #FF0080;
+			border: 1px solid #C48793;
+			position: absolute;
+			z-index: 32767;
+		}
+
+		.ds_tbl {
+			background-color: #E8ADAA;
+		}
+
+		.ds_head {
+			background-color: #C25A7C;
+			color: white;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 13px;
+			font-weight: bold;
+			text-align: center;
+			letter-spacing: 2px;
+		}
+
+		.ds_subhead {
+			background-color: #FBBBB9;
+			color: #000;
+			font-size: 12px;
+			font-weight: bold;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			width: 25px;
+		}
+
+		.ds_cell {
+			background-color: #EEE;
+			color: #7E354D;
+			font-size: 13px;
+			font-weight: bold;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			padding: 4px;
+			cursor: pointer;
+		}
+
+		.ds_cell:hover {
+			background-color: #FAAFBA;
+		} /* This hover code won't work for IE */
